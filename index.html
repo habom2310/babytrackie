@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BabyTrackie</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fdf6f0;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 640px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 64px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #f48fb1;
+      margin-bottom: 12px;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      margin-bottom: 24px;
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 16px;
+    }
+
+    .features {
+      list-style: none;
+      text-align: left;
+    }
+
+    .features li {
+      padding: 8px 0;
+      font-size: 1rem;
+      color: #555;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .features li::before {
+      content: "✓";
+      color: #f48fb1;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .privacy-link {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 14px 36px;
+      background-color: #f48fb1;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background-color 0.2s ease;
+    }
+
+    .privacy-link:hover {
+      background-color: #e57fa3;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">👶</div>
+    <h1>BabyTrackie</h1>
+    <p class="tagline">The simple, caring way to track your baby's daily milestones — feeding, sleep, diapers, and more.</p>
+
+    <div class="card">
+      <h2>App Features</h2>
+      <ul class="features">
+        <li>Track feeding sessions (breast, bottle &amp; solids)</li>
+        <li>Log sleep and wake times</li>
+        <li>Record diaper changes</li>
+        <li>Monitor growth milestones</li>
+        <li>View history and daily summaries</li>
+      </ul>
+    </div>
+
+    <a href="privacy-policy.html" class="privacy-link">Privacy Policy</a>
+
+    <footer>
+      <p>&copy; 2024 BabyTrackie. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
